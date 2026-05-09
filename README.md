@@ -1,4 +1,5 @@
 # Hibernate Data Model Extractor
+[![Build Extractor Binaries](https://github.com/avm-sistemas/hibernate-datamodel-llm-extractor/actions/workflows/build.yml/badge.svg)](https://github.com/avm-sistemas/hibernate-datamodel-llm-extractor/actions/workflows/build.yml)
 
 A pragmatic utility designed to crawl through massive Hibernate mapping landscapes (`.hbm.xml`) and consolidate them into a structured, LLM-ready Data Dictionary (Markdown). 
 
