@@ -1,7 +1,5 @@
 # Hibernate Data Model Extractor
 
-# LogOne Data Model Extractor
-
 A pragmatic utility designed to crawl through massive Hibernate mapping landscapes (`.hbm.xml`) and consolidate them into a structured, LLM-ready Data Dictionary (Markdown). 
 
 This tool was built to solve the "context window" problem for AI agents (Copilot, Cursor, Gemini, etc.) working on large-scale legacy systems, especially those using **AndroMDA**.
