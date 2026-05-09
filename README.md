@@ -14,3 +14,8 @@ This tool was built to solve the "context window" problem for AI agents (Copilot
 2. Run it via terminal, passing the root directory of your project mappings:
    ```bash
    ./datamodel-llm-extractor-win.exe "C:/Projects/First/source" data-dictionary.md
+
+## History
+
+### v1 
+Release: https://github.com/avm-sistemas/hibernate-datamodel-llm-extractor/actions/runs/25603827489/artifacts/6896393664
