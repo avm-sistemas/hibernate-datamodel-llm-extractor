@@ -1,0 +1,44 @@
+{
+  "name": "datamodel-llm-extractor",
+  "version": "1.0.0",
+  "description": "Extract project's hbm.xml to llm format.",
+  "keywords": [
+    "data-model",
+    "llm",
+    "extractor",
+    "hibernate",
+    "xml",
+    "parser",
+    "logistics"
+  ],
+  "license": "MIT",
+  "author": "Andre Mesquita",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",  
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "targets": [
+      "node18-win-x64",
+      "node18-linux-x64"
+    ]
+  },  
+  "scripts": {
+    "start": "node ./index.ts",
+    "dev": "tsx --watch index.ts",    
+    "build": "tsc index.ts --outDir dist --esModuleInterop --skipLibCheck --target ES2018 --module CommonJS --types node && pkg . --targets node18-win-x64,node18-linux-x64 --out-path bin"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.7.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "pkg": "^5.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
